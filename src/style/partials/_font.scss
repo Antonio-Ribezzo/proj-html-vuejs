@@ -1,0 +1,22 @@
+@import '../partials/variables';
+
+header,
+p,
+span{
+    font-family: "Quicksand", sans-serif;
+}
+
+h1,
+h2{
+    font-family: "Metropolis", sans-serif;
+    font-weight: 700;
+}
+
+.mailSectionFont{
+    font-family: "Gupter", serif; 
+}
+
+.handWriting{
+    font-family: "Oooh Baby", cursive;
+    color: $colorHandWriting;
+}

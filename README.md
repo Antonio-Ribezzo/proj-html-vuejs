@@ -1,1 +1,6 @@
-# Template base Vite + Vue3
+# Progetto HTML / VueJS
+## Tecnologie utilizzate:
+- HTML
+- Scss
+- VueJs/Vite
+

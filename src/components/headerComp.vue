@@ -1,13 +1,13 @@
 <script>
     export default {
-        name: 'headerComp'
+        name: 'HeaderComp'
     }
 </script>
 
 <template>
-    <div>
-        <h1>sono l'header</h1>
-    </div>
+    <header>
+        
+    </header>
 </template>
 
 <style lang="scss" scoped>
