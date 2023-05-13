@@ -56,7 +56,7 @@
         <div id="headerDown" class="container d-flex justify-content-between align-items-center py-4 px-0">
             <!-- main logo -->
             <div>
-                <img src="../../public/img/dark-logo.png" alt="logo-Max-Coach">
+                <img src="/img/dark-logo.png" alt="logo-Max-Coach">
             </div>
             <!-- navigation -->
             <nav>

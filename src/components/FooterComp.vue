@@ -64,9 +64,9 @@
                 </h5>
                 <!-- images -->
                 <div id="imagesFooter">
-                    <img src="../../public/img/artist-blog-00.jpg" alt="artist-blog-00" class="me-3">
-                    <img src="../../public/img/paint.jpg" alt="photo-painting" class="me-3">
-                    <img src="../../public/img/artist-event-02-250x300.jpg" alt="event-04-artist">
+                    <img src="/img/artist-blog-00.jpg" alt="artist-blog-00" class="me-3">
+                    <img src="/img/paint.jpg" alt="photo-painting" class="me-3">
+                    <img src="/img/artist-event-02-250x300.jpg" alt="event-04-artist">
                 </div>
 
             </div>
