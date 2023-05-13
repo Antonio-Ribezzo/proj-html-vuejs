@@ -1,13 +1,19 @@
 @import '../partials/variables';
 
 h1,
-h2{
+h2,
+h5{
     font-family: "Metropolis", sans-serif;
     font-weight: 700;
 }
 
 .mailSectionFont{
     font-family: "Gupter", serif; 
+}
+
+footer{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
 }
 
 .handWriting{
@@ -18,4 +24,11 @@ h2{
 .sideWriting{
     font-family: "Londrina Shadow", cursive;
     color: $circleColor;
+}
+
+.mailColor{
+    font-family: "Metropolis", sans-serif;
+    font-weight: 700;
+    color: $MainColor;
+    cursor: pointer;
 }
