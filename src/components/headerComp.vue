@@ -113,9 +113,22 @@
                     height: 2rem;
                 }
             }
+            nav{
+                ul{
+                    li{
+                        &:hover{
+                            text-decoration: underline;
+                            color: $MainColor;
+                        }
+                    }
+                }
+            }
             #socialLogos{
                 a{
                     color: $fontColorBrands;
+                    &:hover{
+                        color: $MainColor;
+                    }
                 }
             }
         }
