@@ -10,6 +10,7 @@ import "@fontsource/caveat"
 import "@fontsource/oooh-baby"
 import "@fontsource/metropolis"
 import "@fontsource/gupter"
+import "@fontsource/londrina-shadow"
 
 //import the fontawesome core
 import { library } from '@fortawesome/fontawesome-svg-core'
