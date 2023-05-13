@@ -8,4 +8,7 @@
     font-weight: 400;
     border: none;
     border-radius: 0.5rem;
+    &:hover{
+        background-color: $colorButtonBlue;
+    }
 }

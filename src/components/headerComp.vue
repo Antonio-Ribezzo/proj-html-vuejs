@@ -73,10 +73,10 @@
             </nav>
             <!-- social logos -->
             <div id="socialLogos">
-                <font-awesome-icon :icon="['fab', 'twitter']" class="me-3"/>
-                <font-awesome-icon :icon="['fab', 'facebook-f']" class="me-3"/>
-                <font-awesome-icon :icon="['fab', 'instagram']" class="me-3"/>
-                <font-awesome-icon :icon="['fab', 'linkedin']" />
+                <a href="#"><font-awesome-icon :icon="['fab', 'twitter']" class="me-3"/></a>
+                <a href="#"><font-awesome-icon :icon="['fab', 'facebook-f']" class="me-3"/></a>
+                <a href="#"><font-awesome-icon :icon="['fab', 'instagram']" class="me-3"/></a>
+                <a href="#"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
             </div>
         </div>
     </header>
@@ -114,7 +114,9 @@
                 }
             }
             #socialLogos{
-                color: $fontColorBrands;
+                a{
+                    color: $fontColorBrands;
+                }
             }
         }
     }
