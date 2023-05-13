@@ -11,6 +11,7 @@ import "@fontsource/oooh-baby"
 import "@fontsource/metropolis"
 import "@fontsource/gupter"
 import "@fontsource/londrina-shadow"
+import "@fontsource/lilita-one"
 
 //import the fontawesome core
 import { library } from '@fortawesome/fontawesome-svg-core'

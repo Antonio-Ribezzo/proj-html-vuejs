@@ -1,0 +1,11 @@
+@import '../partials/variables';
+
+.buttonOne{
+    color: white;
+    background-color: $MainColor;
+    padding: 0.2rem 2rem;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    border: none;
+    border-radius: 0.5rem;
+}

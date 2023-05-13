@@ -1,4 +1,6 @@
 <script>
+  // importo lo store
+  import { store } from './store';
   // importo i componenti
   import HeaderComp from './components/headerComp.vue';
   import MainComp from './components/MainComp.vue';
@@ -7,10 +9,17 @@
   export default{
     name: 'App',
     components:{
-            HeaderComp,
-            MainComp,
-            FooterComp
-        }
+      HeaderComp,
+      MainComp,
+      FooterComp
+    },
+    data(){
+      return{
+        store,
+      }
+    }
+      
+
   }
 
 </script>
