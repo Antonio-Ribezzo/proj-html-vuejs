@@ -8,6 +8,35 @@
             return{
                 store,
             }
+        },
+        mounted(){
+            this.countDown()
+        },
+
+        methods:{
+            countDown(){
+                //set the date I'm counting down
+                let countDownDate = new Date("Jun 30, 2023, 12:00:00").getTime();
+                //every 1 second update the date
+                let interval = setInterval(function(){
+                    // get today date and time
+                    let nowDate = new Date().getTime();
+                    // subtraction of today and countDownDate
+                    let distance = countDownDate - nowDate;
+                    // time calculation for days, hours, minutes and seconds
+                    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    // inner Html
+                    document.querySelector('#countDown').innerHTML = days + ": " + hours + ": " + minutes + ": " + seconds;
+                    // if countdown finish
+                    if(distance < 0){
+                        clearInterval(interval);
+                        element.innerHTML = 'FINISHED'
+                    }
+                }, 1000)
+            }
         }
     }
 </script>
@@ -20,7 +49,7 @@
             </div>
             <div class="d-flex justify-content-between align-items-center">
                 <font-awesome-icon :icon="['far', 'clock']" class="me-3"/>
-                <span class="me-3">00 : 00 : 00 : 00</span>
+                <span id="countDown" class="me-3"></span>
             </div>
             <button class="buttonOne">Get ticket</button>
         </div>
