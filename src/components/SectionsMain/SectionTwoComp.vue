@@ -1,7 +1,7 @@
 <script>
     import {store} from '../../store'
     // importo il componente box
-    import boxComp from '../SectionsMain/Section two component/boxComp.vue'
+    import boxComp from '../SectionsMain/Section-two-component/boxComp.vue'
 
     export default {
         name: 'SectionTwoComp',

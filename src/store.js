@@ -108,6 +108,37 @@ export const store = reactive({
             title:'On Time',
             text:"Puncuality is our top priority because it's an essential criteria to assess a program VideoPlaybackQuality."
         }
+    ],
+
+    cardInfoSectionFive:[
+        {
+            title:'High level of efficiency and scientific teaching methods',
+            text:'I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me.',
+            urlAvatar:'/img/artist-testimonial-avatar-04.jpg',
+            nameAvatar:'Mina Hollace',
+            roleAvatar:'/Freelancer'
+        },
+        {
+            title:"It's a choice of quality for people with special needs",
+            text:"I'm a very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just got me.",
+            urlAvatar:'/img/artist-testimonial-avatar-02.jpg',
+            nameAvatar:'Florence Themes',
+            roleAvatar:'/Multimedia Admin'
+        },
+        {
+            title:'Professional team of specialists and passionate mentors at reach',
+            text:'I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.',
+            urlAvatar:'/img/artist-testimonial-avatar-01.jpg',
+            nameAvatar:'Madley Pondor',
+            roleAvatar:'/IT Specialist'
+        },
+        // {
+        //     title:'High level of efficiency and scientific teaching methods',
+        //     text:'I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me.',
+        //     urlAvatar:'/img/artist-testimonial-avatar-03.jpg',
+        //     nameAvatar:'Thomas Wall',
+        //     roleAvatar:'/Freelancer'
+        // }
     ]
 
     
