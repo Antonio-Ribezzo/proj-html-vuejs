@@ -34,7 +34,7 @@
             <h2>Why do people love me?</h2>
         </div>
         <!-- container cards   -->
-        <div class="d-flex justify-content-between align-items-center gap-4">
+        <div class="container d-flex justify-content-between align-items-center gap-4">
             <cardAvatarComp v-for="(el,i) in store.cardInfoSectionFive"
             :key="i"
             :infoAvatar="el"
