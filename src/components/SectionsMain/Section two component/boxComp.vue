@@ -17,7 +17,7 @@
 <style lang="scss" scoped>
     @use '../../../style/main.scss' as *;
     div{
-        max-width: 15rem;
+        max-width: 10rem;
         img{
             scale: 80%;
         }

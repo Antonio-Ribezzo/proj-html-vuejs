@@ -31,7 +31,7 @@
             <h2>I understand what it takes to create.<br>I can help you with</h2>
         </div>
         <!-- componets box with props -->
-        <div id="containerBoxes" class="container d-flex justify-content-center gap-3">
+        <div id="containerBoxes" class="container d-flex justify-content-between p-0 m-0">
             <boxComp v-for="(el,i) in store.sectionTwoBox"
             :key="i"
             :infoBox="el"
@@ -78,6 +78,7 @@
         }
 
         #containerBoxes{
+            width: 70rem;
             height: 18rem;
             z-index: 9999999;
         }
