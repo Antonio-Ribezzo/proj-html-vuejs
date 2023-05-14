@@ -9,9 +9,19 @@
         components:{
             cardAvatarComp
         },
+
+        // mounted(){
+        //     this.changeCard()
+        // },
+
         data(){
             return{
                 store,
+            }
+        },
+        methods:{
+            changeCounter(i){
+                this.store.counter = i
             }
         }
     }
@@ -27,13 +37,17 @@
         <div class="d-flex justify-content-between align-items-center gap-4">
             <cardAvatarComp v-for="(el,i) in store.cardInfoSectionFive"
             :key="i"
-            :infoAvatar="el"/>
+            :infoAvatar="el"
+            @click="changeCounter(i)"
+            :class="(store.counter === i)? 'active': ''"/>
         </div>
         <!-- dot for selection -->
-        <div class="mt-4">
-            <span v-for="n in 3" :id="n - 1" class="dot me-2"></span>
+        <div class="my-3">
+            <span v-for="n in 3" class="dot me-2" 
+            :class="(store.counter === (n - 1))? 'dotSelected': ''"
+            @click="changeCounter(n-1)">
+            </span>
         </div>
-
     </section>
 </template>
 

@@ -139,7 +139,9 @@ export const store = reactive({
         //     nameAvatar:'Thomas Wall',
         //     roleAvatar:'/Freelancer'
         // }
-    ]
+    ],
+
+    counter:1
 
     
 })
