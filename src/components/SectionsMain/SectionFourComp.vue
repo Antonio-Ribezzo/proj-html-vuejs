@@ -11,19 +11,19 @@
 
         <div id="ring" class="position-absolute ringShape"></div>
 
-        <img id="shape1" class="position-absolute" src="../../../public/img/maxcoach-shape-12.png" alt="shape-14">
+        <img id="shape1" class="position-absolute" src="/img/maxcoach-shape-12.png" alt="shape-14">
 
         <svg id="shape3" class="position-absolute"  xmlns="http://www.w3.org/2000/svg">
             <path fill="#B2E0F6" d="M23.1,-34.2C35.5,-32.8,55.1,-38,67.3,-33.4C79.5,-28.8,84.2,-14.4,83.2,-0.6C82.2,13.2,75.5,26.5,67.8,38.8C60.1,51.1,51.4,62.5,39.9,66.1C28.5,69.6,14.2,65.2,-1.2,67.3C-16.6,69.3,-33.3,77.9,-45,74.5C-56.8,71.2,-63.7,56,-67.9,41.6C-72,27.2,-73.5,13.6,-75.1,-1C-76.8,-15.5,-78.6,-31,-73.5,-43.8C-68.5,-56.6,-56.4,-66.7,-43,-67.6C-29.6,-68.5,-14.8,-60.1,-4.7,-51.9C5.3,-43.7,10.6,-35.7,23.1,-34.2Z" transform="translate(100 100)" />
         </svg>
 
-        <img id="shape2" class="position-absolute" src="../../../public/img/maxcoach-shape-05.png" alt="shape-05">
+        <img id="shape2" class="position-absolute" src="/img/maxcoach-shape-05.png" alt="shape-05">
 
 
         <!-- youtube video -->
         <div class="d-flex justify-content-center align-items-center p-5">
             <div id="playerVideo">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/26a30Fy7uAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/26a30Fy7uAw" title="YouTube video player"></iframe>
             </div>
         </div>
     </section>

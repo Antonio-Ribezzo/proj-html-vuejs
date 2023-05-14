@@ -1,6 +1,14 @@
 <script>
+    // importo lo store js
+    import { store } from '../../store';
+
     export default {
-        name: 'SectionFiveComp'
+        name: 'SectionFiveComp',
+        data(){
+            return{
+                store,
+            }
+        }
     }
 </script>
 
