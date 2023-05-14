@@ -93,8 +93,6 @@
             div{
                 p{
                     font-size: 0.8rem;
-                    font-family: "Quicksand", sans-serif;
-                    color: $fontColorBrands;
                 }
             }
             div{
