@@ -26,3 +26,10 @@
         color: white;
     }
 }
+
+.ringShape{
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 50%;
+    border: 1rem solid $ringColor;
+}
