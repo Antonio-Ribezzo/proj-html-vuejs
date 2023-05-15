@@ -43,6 +43,7 @@
 
 <template>
     <header>
+        <!-- header-up -->
         <div id="headerUp" class="d-flex justify-content-center align-items-center py-2">
             <div>
                 <p class="my-0 me-3 text-secondary">Starts TOMORROW! Our biggest event of the year...</p>
@@ -53,6 +54,7 @@
             </div>
             <button class="buttonOne">Get ticket</button>
         </div>
+        <!-- header-down -->
         <div id="headerDown" class="container d-flex justify-content-between align-items-center py-4 px-0">
             <!-- main logo -->
             <div>
@@ -96,8 +98,9 @@
                 }
             }
             div{
-                span{
-                    font-weight: bold;
+                #countDown{
+                    font-family: "Lilita One", cursive;
+                    font-weight: 200;
                 }
             }
         }
