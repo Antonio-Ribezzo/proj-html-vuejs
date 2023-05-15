@@ -68,8 +68,8 @@
     }
 
     #shape02{
-        rotate: 220deg;
-        right: 0;
+        rotate: 350deg;
+        right: 2rem;
         top: 15rem;
     }
 </style>
