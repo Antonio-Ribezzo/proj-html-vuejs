@@ -24,14 +24,14 @@
             <h2>Latest online courses</h2>
         </div>
         <!-- container cards   -->
-        <div class="container d-flex justify-content-between align-items-start gap-4 flex-wrap position-relative">
+        <div class="container d-flex justify-content-between align-items-start gap-4 flex-wrap">
             <cardArtistComp v-for="(el,i) in store.cardArtistSectionSix"
             :key="i"
             :infoArtistCard="el"
             />
-            <!-- aside text -->
-            <span id="asideText" class="position-absolute sideWriting text-capitalize">courses</span>
         </div>
+        <!-- aside text -->
+        <span id="asideText" class="position-absolute sideWriting text-capitalize">courses</span>
         <!-- background images -->
         <img id="shape01" class="position-absolute" src="/img/artist-shape-01-600x577.png" alt="artist-shape-01">
         <img id="shape02" class="position-absolute" src="/img/artist-shape-01-lightBlue-600x577.png" alt="artist-shape-02">
@@ -57,7 +57,6 @@
             z-index: -1;
             top: 30rem;
             left: -20rem;
-            // object-position: 20rem;
         }
 
         #asideText{
@@ -65,8 +64,8 @@
             font-size: 10rem;
             line-height: 10rem;
             rotate: 90deg;
-            right: -25rem;
-            top: 20rem;
+            right: -8rem;
+            top: 30rem;
         }
     }
     
