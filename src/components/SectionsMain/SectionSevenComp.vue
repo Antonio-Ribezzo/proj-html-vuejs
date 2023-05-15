@@ -52,7 +52,7 @@
             <div id="imagePrimary" class="position-relative align-self-center mb-5">
                 <img class="img-fluid" :src="store.cardEventsSectionSeven[1].urlEvent" :alt="store.cardEventsSectionSeven[1].title">
                 <div class="containerInfoEvent p-4 position-absolute">
-                    <span class="text-uppercase">artist</span>
+                    <span class="text-uppercase text-white">artist</span>
                     <h4 class="mt-3">{{ store.cardEventsSectionSeven[1].title }}</h4>
                     <div class="containerInfo2 d-flex justify-content-start  align-items-center mt-3">
                         <!-- date -->
@@ -199,6 +199,9 @@
             .containerInfo2{
                 font-size: 1rem;
                 color: white;
+                span{
+                    color: white;
+                }
             }
         }
         &:hover{

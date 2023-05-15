@@ -221,5 +221,32 @@ export const store = reactive({
             date:'May 15, 2020',
             views:'603 views'
         }
+    ],
+
+    cardUpcomingEvents:[
+        {
+            urlEvent:'/img/artist-event-04-250x300.jpg',
+            title:'Storytelling Workshop',
+            date:'NOV 22, 2020',
+            location:'Texas, US'
+        },
+        {
+            urlEvent:'/img/artist-event-03-250x300.jpg',
+            title:'Painting Art Contest 2020',
+            date:'OCT 10, 2020',
+            location:'New York, US'
+        },
+        {
+            urlEvent:'/img/artist-event-02-250x300.jpg',
+            title:'International Art Fair 2020',
+            date:'NOV 23, 2020',
+            location:'Hamburg, Germany'
+        },
+        {
+            urlEvent:'/img/artist-event-01-250x300.jpg',
+            title:'Street Performance: Call for Artist',
+            date:'DEC 15, 2020',
+            location:'Illinois, US'
+        }
     ]
 })
