@@ -141,7 +141,66 @@ export const store = reactive({
         // }
     ],
 
-    counter:1
+    counter:1,
+
+    cardArtistSectionSix:[
+        {
+            urlImage: '/img/artist-course-08-480x480.jpg',
+            price: '$18.00',
+            title: 'The Acrylic Painting Academy',
+            numberOfLessons: '4 Lessons',
+            numberOfStudents: '50 Students'
+        },
+        {
+            urlImage: '/img/artist-course-07-480x480.jpg',
+            price: '$21.00',
+            title: 'Drawing and Shading: Complete Course',
+            numberOfLessons: '14 Lessons',
+            numberOfStudents: '50 Students'
+        },
+        {
+            urlImage: '/img/artist-course-06-480x480.jpg',
+            price: '$19.00',
+            title: 'The Color Theory for Digital Artist',
+            numberOfLessons: '7 Lessons',
+            numberOfStudents: '50 Students'
+        },
+        {
+            urlImage: '/img/artist-course-05-480x480.jpg',
+            price: '$35.00',
+            title: 'Ultimate Guide to Digital Sketching for Beginner',
+            numberOfLessons: '14 Lessons',
+            numberOfStudents: '50 Students'
+        },
+        {
+            urlImage: '/img/artist-course-04-480x480.jpg',
+            price: '$19.00',
+            title: 'Portait Drawing The Smart Way',
+            numberOfLessons: '2 Lessons',
+            numberOfStudents: '50 Students'
+        },
+        {
+            urlImage: '/img/artist-course-03-480x480.jpg',
+            price: '$19.00',
+            title: 'Mastering Watercolor Painting from Beginner',
+            numberOfLessons: '9 Lessons',
+            numberOfStudents: '50 Students'
+        },
+        {
+            urlImage: '/img/artist-course-02-480x480.jpg',
+            price: '$25.00',
+            title: 'The Art & Science of Drawing',
+            numberOfLessons: '4 Lessons',
+            numberOfStudents: '50 Students'
+        },
+        {
+            urlImage: '/img/artist-course-01-480x480.jpg',
+            price: '$22.00',
+            title: 'The Colored Pencil Drawing Course',
+            numberOfLessons: '6 Lessons',
+            numberOfStudents: '50 Students'
+        }
+    ]
 
     
 })

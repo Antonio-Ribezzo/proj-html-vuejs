@@ -10,10 +10,6 @@
             cardAvatarComp
         },
 
-        // mounted(){
-        //     this.changeCard()
-        // },
-
         data(){
             return{
                 store,
