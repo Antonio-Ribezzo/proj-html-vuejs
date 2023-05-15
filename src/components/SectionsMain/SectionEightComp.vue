@@ -31,13 +31,45 @@
             :position="i"
             />
         </div>
+        <!-- aside text -->
+        <span id="asideText" class="position-absolute sideWriting text-capitalize">events</span>
+        <!-- background image -->
+        <img id="shape01" class="position-absolute" src="/img/maxcoach-shape-13-150x150.png" alt="artist-shape-13">
+        <img id="shape02" class="position-absolute" src="/img/artist-shape-01-300x288.png" alt="artist-shape-01">
     </section>
 </template>
 
 <style lang="scss" scoped>
     @use '../../style/main.scss' as *;
 
+    section{
+        background-image: url('/img/artist-shape-01.png');
+        background-repeat: no-repeat;
+        background-position: bottom left -20rem;
+        
+    }
+
     #containerEventUpcoming{
         width: 60%;
+    }
+
+    #asideText{
+        opacity: 0.6;
+        font-size: 10rem;
+        line-height: 10rem;
+        rotate: 90deg;
+        left: -8rem;
+        top: 30rem;
+    }
+
+    #shape01{
+        right: 0;
+        top: 15rem;
+    }
+
+    #shape02{
+        rotate: 220deg;
+        right: 0;
+        top: 15rem;
     }
 </style>

@@ -12,12 +12,12 @@
             <img class="img-fluid" :src="infoUpcoming.urlEvent" :alt="infoUpcoming.title">
         </div>
         <!-- info -->
-        <div class="textContainer d-flex flex-column justify-content-start align-items-start">
+        <div class="textContainer d-flex flex-column justify-content-start align-items-start" :class="(position <= 1)?'align-items-start':'align-items-end'">
             <span class="mb-2" >{{ infoUpcoming.date }}</span>
-            <h4>{{ infoUpcoming.title }}</h4>
+            <h4 :class="(position <= 1)?'text-start':'text-end'">{{ infoUpcoming.title }}</h4>
             <div class="d-flex justify-content-start align-items-center">
-                <font-awesome-icon class="me-2" :icon="['fas', 'location-dot']" />
-                <span>{{ infoUpcoming.location }}</span>
+                <font-awesome-icon  class="me-2" :icon="['fas', 'location-dot']" />
+                <span :class="(position <= 1)?'text-start':'text-end'">{{ infoUpcoming.location }}</span>
             </div>
         </div>
         <!-- image -->
