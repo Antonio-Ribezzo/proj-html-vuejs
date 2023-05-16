@@ -28,6 +28,21 @@
 
 <template>
     <main>
+        <!-- Offcanvas-->
+        <div id="offcanvas" class="position-fixed bg-white rounded-start d-flex flex-column justify-content-around align-items-center p-1">
+            <button>
+                <font-awesome-icon :icon="['fas', 'ruler-combined']" />
+            </button>
+            <button>
+                <font-awesome-icon :icon="['fas', 'globe']" />
+            </button>
+            <button>
+                <font-awesome-icon :icon="['fas', 'book']" />
+            </button>
+            <button>
+                <font-awesome-icon :icon="['fas', 'cart-shopping']" />
+            </button>
+        </div>
         <!-- jumbotron -->
         <JumbotronComp/>
         <!-- section 2 -->
@@ -50,5 +65,23 @@
 </template>
 
 <style lang="scss" scoped>
+    @use '../style/main.scss' as *;
+    
+    #offcanvas{
+        top: 10rem;
+        right: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index: 9999999999999;
+        button{
+            margin: 0.5rem 0;
+            color: $fontColorBrands;
+            background-color: white;
+            border: none;
+            &:hover{
+                scale: 120%;
+                color: $MainColor;
+            }
+        }
+    }
 
 </style>
