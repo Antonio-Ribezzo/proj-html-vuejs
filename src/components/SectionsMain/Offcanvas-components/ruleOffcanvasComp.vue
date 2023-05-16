@@ -7,10 +7,9 @@
 <template>
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasRule" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
-          <h3 class="offcanvas-title" id="offcanvasRightLabel">First Section Offcanvas</h3>
+          <h3 class="offcanvas-title" id="offcanvasRightLabel">Ruler</h3>
         </div>
         <div class="offcanvas-body">
-          First Section OffCanvas
         </div>
     </div>
 </template>

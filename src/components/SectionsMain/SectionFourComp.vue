@@ -21,7 +21,8 @@
                 </svg>
         
                 <img id="shape02-Sec4" class="position-absolute" src="/img/maxcoach-shape-05.png" alt="shape-05">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/26a30Fy7uAw" title="YouTube video player"></iframe>
+                <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/26a30Fy7uAw" title="YouTube video player"></iframe> -->
+                <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/26a30Fy7uAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </section>
