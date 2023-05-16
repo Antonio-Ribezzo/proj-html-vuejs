@@ -19,7 +19,7 @@
 
 <template>
     <section class="d-flex flex-column justify-content-center align-items-center position-relative py-5 position-relative">
-        <div id="textSection" class="text-center mb-5">
+        <div class="text-center mb-5">
             <span class="handWriting text-capitalize">upcoming events</span>
             <h2 class="text-capitalize">let's work together</h2>
         </div>
@@ -32,10 +32,10 @@
             />
         </div>
         <!-- aside text -->
-        <span id="asideText" class="position-absolute sideWriting text-capitalize">events</span>
+        <span id="asideText-Sec8" class="position-absolute sideWriting text-capitalize">events</span>
         <!-- background image -->
-        <img id="shape01" class="position-absolute" src="/img/maxcoach-shape-13-150x150.png" alt="artist-shape-13">
-        <img id="shape02" class="position-absolute" src="/img/artist-shape-01-300x288.png" alt="artist-shape-01">
+        <img id="shape01-Sec8" class="position-absolute" src="/img/maxcoach-shape-13-150x150.png" alt="artist-shape-13">
+        <img id="shape02-Sec8" class="position-absolute" src="/img/artist-shape-01-300x288.png" alt="artist-shape-01">
     </section>
 </template>
 
@@ -53,7 +53,7 @@
         width: 60%;
     }
 
-    #asideText{
+    #asideText-Sec8{
         opacity: 0.6;
         font-size: 10rem;
         line-height: 10rem;
@@ -62,12 +62,12 @@
         top: 30rem;
     }
 
-    #shape01{
+    #shape01-Sec8{
         right: 0;
         top: 15rem;
     }
 
-    #shape02{
+    #shape02-Sec8{
         rotate: 350deg;
         right: 2rem;
         top: 15rem;

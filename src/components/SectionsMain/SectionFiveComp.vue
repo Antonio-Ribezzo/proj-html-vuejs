@@ -25,7 +25,7 @@
 
 <template>
     <section class="d-flex flex-column justify-content-center align-items-center position-relative py-5">
-        <div id="textSection" class="text-center mb-3">
+        <div class="text-center mb-3">
             <span class="handWriting text-capitalize">testimonials</span>
             <h2>Why do people love me?</h2>
         </div>

@@ -34,8 +34,6 @@
   <!-- footer -->
   <FooterComp/>
 
-
-  
 </template>
 
 <style lang="scss">

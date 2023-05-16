@@ -16,7 +16,7 @@
     <section class="d-flex flex-column justify-content-center align-items-center position-relative py-5 position-relative">
 
         <!-- section title -->
-        <div id="textSection" class="text-center mb-5">
+        <div class="text-center mb-5">
             <span class="handWriting text-capitalize">Articles and Tips</span>
             <h2 class="text-capitalize">latest from the blog</h2>
         </div>
@@ -49,7 +49,7 @@
             </div>
 
             <!-- Second card Event -->
-            <div id="imagePrimary" class="position-relative align-self-center mb-5">
+            <div id="imagePrimary-Sec7" class="position-relative align-self-center mb-5">
                 <img class="img-fluid" :src="store.cardEventsSectionSeven[1].urlEvent" :alt="store.cardEventsSectionSeven[1].title">
                 <div class="containerInfoEvent p-4 position-absolute">
                     <span class="text-uppercase text-white">artist</span>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <svg id="shape03" class="position-absolute" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <svg id="shape03-Sec7" class="position-absolute" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                     <path fill="#B2E0F6" d="M23.1,-34.2C35.5,-32.8,55.1,-38,67.3,-33.4C79.5,-28.8,84.2,-14.4,83.2,-0.6C82.2,13.2,75.5,26.5,67.8,38.8C60.1,51.1,51.4,62.5,39.9,66.1C28.5,69.6,14.2,65.2,-1.2,67.3C-16.6,69.3,-33.3,77.9,-45,74.5C-56.8,71.2,-63.7,56,-67.9,41.6C-72,27.2,-73.5,13.6,-75.1,-1C-76.8,-15.5,-78.6,-31,-73.5,-43.8C-68.5,-56.6,-56.4,-66.7,-43,-67.6C-29.6,-68.5,-14.8,-60.1,-4.7,-51.9C5.3,-43.7,10.6,-35.7,23.1,-34.2Z" transform="translate(100 100)" />
                 </svg>
             </div>
@@ -99,15 +99,15 @@
             </div>
         </div>
         <!-- background images -->
-        <img id="shape01" class="position-absolute" src="/img/maxcoach-shape-03.png" alt="maxcoach-shape-03-bg">
-        <div id="ring2" class="position-absolute ringShape"></div>
-        <img id="shape02" class="position-absolute" src="/img/maxcoach-shape-12.png" alt="shape-14">
+        <img id="shape01-Sec7" class="position-absolute" src="/img/maxcoach-shape-03.png" alt="maxcoach-shape-03-bg">
+        <div id="ring2-Sec7" class="position-absolute ringShape"></div>
+        <img id="shape02-Sec7" class="position-absolute" src="/img/maxcoach-shape-12.png" alt="shape-12-maxcoach">
 
         <!-- link -->
-        <div id="containerSpan" class="mt-5">
+        <div id="containerSpan-Sec7" class="mt-5">
             <span class="colorBrands">Get into details now?</span>
             <a href="#">
-                <span id="linkPost" class="mt-5 mb-3">
+                <span id="linkPost-Sec7" class="mt-5 mb-3">
                 View all posts
                 <font-awesome-icon :icon="['fas', 'arrow-right']" />
                 </span>
@@ -123,35 +123,35 @@
         // height: 50rem;
         background-color: $bgSectionSevenMain;
 
-        #shape01{
+        #shape01-Sec7{
             right: 0;
             // object-position: 3rem;
             top: 10rem;
         }
 
-        #ring2{
+        #ring2-Sec7{
             top: 5rem;
             left: 10rem;
         }
 
-        #shape02{
+        #shape02-Sec7{
             top: 10rem;
             left: 35rem;
         }
 
-        #shape03{
+        #shape03-Sec7{
             scale: 250%;
             top: 30rem;
             left: 20rem;
             z-index: -1;
         }
 
-        #containerSpan{
+        #containerSpan-Sec7{
             font-size: 0.8rem;
             a{
                 text-decoration: none;
             }
-            #linkPost{
+            #linkPost-Sec7{
                 color: $MainColor;
                 font-weight: bold;
                 &:hover{
@@ -189,7 +189,7 @@
         }
     }
 
-    #imagePrimary{
+    #imagePrimary-Sec7{
         width: 25rem;
         cursor: pointer;
         .containerInfoEvent{

@@ -24,31 +24,18 @@
                 <h5 class="mb-3">Address</h5>
                 <span v-for="(el,i) in store.contactsInfo" :key="i" class="mb-2">{{ el }}</span>
                 <!-- social Logos -->
-                <div id="socialLogos" class="mt-2">
+                <div id="socialLogos-Footer" class="mt-2">
                     <a href="#"><font-awesome-icon :icon="['fab', 'square-facebook']" class="me-3"/></a>
                     <a href="#"><font-awesome-icon :icon="['fab', 'twitter']" class="me-3"/></a>
                     <a href="#"><font-awesome-icon :icon="['fab', 'instagram']" class="me-3"/></a>
                     <a href="#"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
                 </div>
             </div>
-            <!-- footer nav 1 -->
-            <div class="d-flex justify-content-start align-items-start">
+            <!-- footer nav  -->
+            <div v-for="(el,index) in store.navFooterItem" :key="index" class="d-flex justify-content-start align-items-start">
                 <div class="me-5">
-                    <h5 class="mb-3">{{ store.navFooterItem[0].name }}</h5>
-                    <ul v-for="(el,i) in store.navFooterItem[0].contents" :key="i" class="p-0 my-2">
-                        <li>
-                            <a href="#">
-                                <span>{{ el }}</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- footer nav 2-->
-            <div class="d-flex justify-content-start align-items-start">
-                <div class="me-5">
-                    <h5 class="mb-3">{{ store.navFooterItem[1].name }}</h5>
-                    <ul v-for="(el,i) in store.navFooterItem[1].contents" :key="i" class="p-0 my-2">
+                    <h5 class="mb-3">{{ el.name }}</h5>
+                    <ul v-for="(el,i) in store.navFooterItem[index].contents" :key="i" class="p-0 my-2">
                         <li>
                             <a href="#">
                                 <span>{{ el }}</span>
@@ -71,7 +58,6 @@
 
             </div>
         </div>
-
         <!-- copyright -->
         <div id="copyright" class="d-flex justify-content-center align-items-center pt-5">
             <span>
@@ -106,7 +92,7 @@
         }
     }
 
-    #socialLogos{
+    #socialLogos-Footer{
         a{
             color:$colorFooterSpan;
             font-size: 1.4rem;

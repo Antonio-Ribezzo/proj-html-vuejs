@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div class="container0 d-flex flex-column justify-content-start align-items-start bg-white rounded">
+    <div class="container0-Card d-flex flex-column justify-content-start align-items-start bg-white rounded">
         <!-- image artist course -->
         <div class="containerImage">
             <img class="img-fluid" :src="infoArtistCard.urlImage" :alt="infoArtistCard.title">
@@ -15,7 +15,7 @@
         <div class="p-4">
             <span class="price">{{ infoArtistCard.price }}</span>
             <h4 class="mt-3">{{ infoArtistCard.title }}</h4>
-            <div class="containerInfo d-flex justify-content-start align-items-center mt-3">
+            <div class="containerInfo-Card d-flex justify-content-start align-items-center mt-3">
                 <!-- lesson -->
                 <div class="d-flex align-items-center me-4">
                     <font-awesome-icon :icon="['far', 'file-lines']" />
@@ -34,7 +34,7 @@
 <style lang="scss" scoped>
     @use '../../../style/main.scss' as *;
 
-    .container0{
+    .container0-Card{
         width: calc((100% / 4) - 2rem);
         cursor: pointer;
         &:hover{
@@ -50,7 +50,7 @@
             font-size: 1.3rem;
             font-weight: bold;
         }
-        .containerInfo{
+        .containerInfo-Card{
             width: 85%;
             div{
                 font-size: 0.8rem;

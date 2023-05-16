@@ -29,7 +29,7 @@
 </script>
 
 <template>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasBook" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasBook" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header d-flex flex-column justify-content-start align-items-start">
           <h3 class="offcanvas-title mb-3" id="offcanvasRightLabel">Books</h3>
           <div class="input-group mb-3">

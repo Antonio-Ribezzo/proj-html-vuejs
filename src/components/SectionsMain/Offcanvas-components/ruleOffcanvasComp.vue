@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRule" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasRule" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
           <h3 class="offcanvas-title" id="offcanvasRightLabel">First Section Offcanvas</h3>
         </div>
