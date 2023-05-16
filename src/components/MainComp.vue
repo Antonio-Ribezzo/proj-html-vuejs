@@ -9,6 +9,11 @@
     import SectionSevenComp from './SectionsMain/SectionSevenComp.vue';
     import SectionEightComp from './SectionsMain/SectionEightComp.vue';
     import SectionNineComp from './SectionsMain/SectionNineComp.vue';
+    // importo i componenti per gli offcanvas
+    import cartOffcanvasComp from './SectionsMain/Offcanvas-components/cartOffcanvasComp.vue';
+    import BookOffcanvasComp from './SectionsMain/Offcanvas-components/BookOffcanvasComp.vue';
+    import GlobeoffcanvasComp from './SectionsMain/Offcanvas-components/GlobeoffcanvasComp.vue';
+    import ruleOffcanvasComp from './SectionsMain/Offcanvas-components/ruleOffcanvasComp.vue';
 
     export default {
         name: 'MainComp',
@@ -22,6 +27,10 @@
             SectionSevenComp,
             SectionEightComp,
             SectionNineComp,
+            cartOffcanvasComp,
+            BookOffcanvasComp,
+            GlobeoffcanvasComp,
+            ruleOffcanvasComp,
         }
     }
 </script>
@@ -30,18 +39,22 @@
     <main>
         <!-- Offcanvas-->
         <div id="offcanvas" class="position-fixed bg-white rounded-start d-flex flex-column justify-content-around align-items-center p-1">
-            <button>
-                <font-awesome-icon :icon="['fas', 'ruler-combined']" />
+            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasRule">
+                <font-awesome-icon :icon="['fas', 'ruler-combined']"/>
             </button>
-            <button>
-                <font-awesome-icon :icon="['fas', 'globe']" />
+            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasGlobe">
+                <font-awesome-icon :icon="['fas', 'globe']"/>
             </button>
-            <button>
-                <font-awesome-icon :icon="['fas', 'book']" />
+            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasBook">
+                <font-awesome-icon :icon="['fas', 'book']"/>
             </button>
-            <button>
-                <font-awesome-icon :icon="['fas', 'cart-shopping']" />
+            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart">
+                <font-awesome-icon :icon="['fas', 'cart-shopping']"/>
             </button>
+            <cartOffcanvasComp/>
+            <BookOffcanvasComp/>
+            <GlobeoffcanvasComp/>
+            <ruleOffcanvasComp/>
         </div>
         <!-- jumbotron -->
         <JumbotronComp/>

@@ -22,12 +22,12 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faLinkedin, faTwitter, faInstagram, faFacebookF, faSquareFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faClock, faFileLines, faUser, faCalendar, faCopyright} from '@fortawesome/free-regular-svg-icons'
-import { faCartShopping, faGlobe, faRulerCombined, faBook, faArrowRight, faEye, faLocationDot, faArrowRightLong, faArrowUpLong } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faGlobe, faRulerCombined, faBook, faArrowRight, faEye, faLocationDot, faArrowRightLong, faArrowUpLong, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 
 
 /* add icons to the library */
-library.add(faLinkedin, faTwitter, faFacebookF, faSquareFacebook,faInstagram, faClock, faCartShopping, faGlobe, faCopyright,faRulerCombined, faBook, faFileLines, faUser, faArrowRight, faCalendar, faEye, faLocationDot, faArrowRightLong, faArrowUpLong)
+library.add(faLinkedin, faTwitter, faFacebookF, faSquareFacebook,faInstagram, faClock, faCartShopping, faGlobe, faCopyright,faRulerCombined, faBook, faFileLines, faUser, faArrowRight, faCalendar, faEye, faLocationDot, faArrowRightLong, faArrowUpLong, faMagnifyingGlass)
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)

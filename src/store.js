@@ -248,5 +248,9 @@ export const store = reactive({
             date:'DEC 15, 2020',
             location:'Illinois, US'
         }
-    ]
+    ],
+
+    arrayBooks:[],
+
+    searchBooks:''
 })
