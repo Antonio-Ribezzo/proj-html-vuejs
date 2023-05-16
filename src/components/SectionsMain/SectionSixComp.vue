@@ -36,10 +36,20 @@
         <img id="shape01-Sec6" class="position-absolute" src="/img/artist-shape-01-600x577.png" alt="artist-shape-01">
         <img id="shape02-Sec6" class="position-absolute" src="/img/artist-shape-01-lightBlue-600x577.png" alt="artist-shape-02">
         <!-- button -->
-        <button class="buttonTwo mt-5 mb-3">
+        <button class="buttonTwo mt-5 mb-3" data-bs-toggle="collapse" data-bs-target="#collapseCourses">
             View all Courses 
             <font-awesome-icon :icon="['fas', 'arrow-right']" />
         </button>
+        <div class="collapse" id="collapseCourses">
+            <div class="card card-body">
+                <ul>
+                    <li v-for="(el,i) in store.cardArtistSectionSix" :key="i">
+                        <span class="text-black me-2">{{i+1}}.</span>
+                        <a href="#"><span>{{ el.title }}</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
 </template>
 
@@ -66,6 +76,13 @@
             rotate: 90deg;
             right: -8rem;
             top: 30rem;
+        }
+
+        a{
+            text-decoration: none;
+            &:hover{
+                background-color: rgba(255, 166, 0, 0.621);
+            }
         }
     }
     
