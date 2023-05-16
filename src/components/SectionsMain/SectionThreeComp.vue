@@ -6,7 +6,7 @@
 
 <template>
     <section class="position-relative py-3">
-        <div id="container0-Sec3" class="d-flex justify-content-between align-items-center">
+        <div i class="container d-flex justify-content-between align-items-center">
             <!-- content sx -->
             <div id="contentSx-Sec3" class="d-flex flex-column justify-content-between align-items-center">
                 <img src="/img/artist-quote-icon.png" alt="quote-icon" class="mb-4">
@@ -15,7 +15,7 @@
             </div>
     
             <!-- content dx -->
-            <div id="contentDx-Sec3" class="d-flex flex-column justify-content-between align-items-start mt-5">
+            <div id="contentDx-Sec3" class="d-flex flex-column flex-wrap justify-content-between align-items-start mt-5">
                 <p>As a coach and mentor, my ultimate goal is to motivate visual artists toward inspired action. I help you get you back on track to being the productive, creative, meaningful and authentic artist you truly want to be. I support artists in crafting and living a creative life as well as feeling good about themselves and their art.</p>
     
                 <p>As an artist and an educator for nearly 30 years, I understand what it takes to create.</p>
@@ -29,11 +29,9 @@
 <style lang="scss" scoped>
     @use '../../style/main.scss' as *;
     section{
-        #container0-Sec3{
-            margin: 0 auto;
-            width: 70rem;
+        .container{
             #contentSx-Sec3{
-                width: calc(100% / 2);
+                width: 50%;
                 
                 h2{
                     font-size: 2.5rem;
@@ -41,7 +39,7 @@
             }
     
             #contentDx-Sec3{
-                width: calc(100% / 2);
+                width: 50%;
             }
         }
     }

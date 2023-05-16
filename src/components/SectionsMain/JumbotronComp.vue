@@ -11,11 +11,6 @@
             <span class="handWriting text-capitalize">hello, im martin</span>
             <h1 class="text-capitalize">artist coaching and mentoring<br>might be for you.</h1>
             <button class="buttonOne py-2 mt-3">Get started today</button>
-            <!-- image background right -->
-            <img id="shape08-jumbo" class="position-absolute" src="/img/artist-shape-05-300x198.png" alt="shape-05-artist">
-            <img id="shape09-jumbo" class="position-absolute" src="/img/artist-shape-04-127x300.png" alt="shape-05-artist">
-            <img id="shape10-jumbo" class="position-absolute" src="/img/maxcoach-shape-12-100x100.png" alt="maxcoach-shape-12">
-            <img id="shape11-jumbo" class="position-absolute" src="/img/artist-hero-image-04.jpg" alt="artist-hero4">
             <!-- image background left -->
             <img id="shape04-jumbo" class="position-absolute" src="/img/artist-hero-image-03.png" alt="artist-hero3">
             <img id="shape05-jumbo" class="position-absolute" src="/img/artist-hero-image-02.jpg" alt="artist-hero2">
@@ -29,6 +24,10 @@
         <img id="shape03-jumbo" class="position-absolute" src="/img/artist-shape-03.png" alt="artist-shape3">
         <!-- background right -->
         <img id="shape07-jumbo" class="position-absolute" src="/img/artist-shape-01-600x577.png" alt="shape-01">
+        <img id="shape08-jumbo" class="position-absolute" src="/img/artist-shape-05-300x198.png" alt="shape-05-artist">
+        <img id="shape09-jumbo" class="position-absolute" src="/img/artist-shape-04-127x300.png" alt="shape-05-artist">
+        <img id="shape10-jumbo" class="position-absolute" src="/img/maxcoach-shape-12-100x100.png" alt="maxcoach-shape-12">
+        <img id="shape11-jumbo" class="position-absolute" src="/img/artist-hero-image-04.jpg" alt="artist-hero4">
     </section>
 </template>
 
@@ -75,23 +74,27 @@
             top: 0rem;
             right: 4rem;
         }
+
         #shape08-jumbo{
-            top: 12rem;
-            right: -32rem;
+            top: 20rem;
+            right: 0rem;
         }
+
         #shape09-jumbo{
             height: 15rem;
-            top: -10rem;
-            right: -30rem;
+            top: 5rem;
+            right: 5rem;
         }
+
         #shape10-jumbo{
-            top: 16rem;
-            right: -19rem;
+            bottom: 3rem;
+            right: 15rem;
         }
+
         #shape11-jumbo{
             height: 22rem;
-            top: -1rem;
-            right: -26rem;
+            top: 12rem;
+            right: 10rem;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
     }
